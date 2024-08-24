@@ -48,11 +48,11 @@ const NavigationBar = () => {
               The Company
             </Nav.Link>
 
-            <SimpleDialogDemo />
-
             <Nav.Link as={Link} to="/contact" className="gradient-text">
               Contact
             </Nav.Link>
+
+            <SimpleDialogDemo />
 
             {/* <Nav.Link as={Link} to="/login" className="gradient-text">
               LOGIN

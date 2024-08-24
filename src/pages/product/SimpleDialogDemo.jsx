@@ -56,7 +56,7 @@ export default function SimpleDialogDemo() {
       <Typography
         className="gradient-text"
         onClick={handleClickOpen}
-        sx={{ marginTop: '9px', fontWeight: '400', cursor: 'pointer' }}
+        sx={{ marginTop: '8px', fontWeight: '400', cursor: 'pointer' }}
       >
         PRODUCT
       </Typography>

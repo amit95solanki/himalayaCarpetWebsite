@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const SocialMediaBanner = () => {
   return (
     <Box sx={styles.banner}>
-      <IconButton component="a" href="https://wa.me/yourwhatsappnumber" target="_blank" sx={styles.icon}>
+      <IconButton component="a" href="https://wa.me/917007596907" target="_blank" sx={styles.icon}>
         <WhatsAppIcon />
       </IconButton>
       <IconButton component="a" href="https://www.facebook.com/yourprofile" target="_blank" sx={styles.icon}>
@@ -21,7 +21,12 @@ const SocialMediaBanner = () => {
       <IconButton component="a" href="https://www.linkedin.com/in/yourprofile" target="_blank" sx={styles.icon}>
         <LinkedInIcon />
       </IconButton>
-      <IconButton component="a" href="https://www.instagram.com/yourprofile" target="_blank" sx={styles.icon}>
+      <IconButton
+        component="a"
+        href="https://www.instagram.com/himalaya.carpets/?igshid=MmIzYWVlNDQ5Yg%3D%3D"
+        target="_blank"
+        sx={styles.icon}
+      >
         <InstagramIcon />
       </IconButton>
     </Box>
@@ -42,7 +47,7 @@ const styles = {
     fontSize: '24px',
     margin: '0 10px',
     '&:hover': {
-      color: '#898989', // Change hover color if needed
+      color: '#898989',
     },
   },
 };

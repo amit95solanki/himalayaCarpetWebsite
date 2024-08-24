@@ -9,7 +9,7 @@ const ContactSection = () => {
           <Col md={12}>
             <div className="section-header text-center pb-5">
               <h2 className="gradient-text mt-5 mb-5">Contact Us</h2>
-              <p>🏠 - HIG II, Plot 5-12, Jamunipur Colony, BHADOHI-221401, U.P. India</p>
+              <p>🏠 - HIG II, Plot 5-12, JAMUNIPUR COLONY, BHADOHI-221401, U.P. INDIA</p>
               <p>
                 📱 -
                 <a href="tel:+919335723032" className="contact-link">

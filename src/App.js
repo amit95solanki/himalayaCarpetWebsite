@@ -35,7 +35,7 @@ export default function App() {
 }
 const WhatsAppButton = () => {
   return (
-    <a href="https://wa.me/yourwhatsappnumber" target="_blank" rel="noopener noreferrer" style={styles.whatsappIcon}>
+    <a href="https://wa.me/917007596907" target="_blank" rel="noopener noreferrer" style={styles.whatsappIcon}>
       <WhatsAppIcon />
     </a>
   );
