@@ -54,42 +54,42 @@ const CardSlider = () => {
       <Slider {...settings}>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet4.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet5.webp" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet3.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet6.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet3.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet3.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet4.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet4.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet4.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet7.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet3.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet1.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet3.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet2.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
         <div className="">
           <div className="card">
-            <img src="/assets/images/carpet4.jpg" className="card-img-top" alt="Team Member" />
+            <img src="/assets/images/carpet1.jpg" className="card-img-top carpet-card" alt="Team Member" />
           </div>
         </div>
       </Slider>

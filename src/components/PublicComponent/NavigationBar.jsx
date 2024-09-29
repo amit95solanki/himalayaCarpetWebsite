@@ -45,11 +45,15 @@ const NavigationBar = () => {
               HOME
             </Nav.Link>
             <Nav.Link as={Link} to="/company" className="gradient-text">
-              The Company
+              Company
             </Nav.Link>
 
             <Nav.Link as={Link} to="/contact" className="gradient-text">
               Contact
+            </Nav.Link>
+
+            <Nav.Link as={Link} to="/blog" className="gradient-text">
+              Blog
             </Nav.Link>
 
             <SimpleDialogDemo />

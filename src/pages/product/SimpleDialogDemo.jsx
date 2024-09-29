@@ -12,7 +12,7 @@ function SimpleDialog(props) {
 
   return (
     <Dialog onClose={handleClose} open={open}>
-      <DialogTitle sx={{ padding: '0 100px', marginY: '20px' }}>Products</DialogTitle>
+      <DialogTitle sx={{ padding: '0 100px', marginY: '20px', fontWeight: '800' }}>Products</DialogTitle>
       <Link
         to="/indo-nepali-product"
         style={{ textDecoration: 'none', color: 'inherit', textAlign: 'center', marginBottom: '10px' }}

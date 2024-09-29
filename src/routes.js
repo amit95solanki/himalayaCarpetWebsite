@@ -100,6 +100,15 @@ export default function Router() {
             }
           />
 
+          <Route
+            path="/blog"
+            element={
+              <PublicRoute>
+                <BlogPage />
+              </PublicRoute>
+            }
+          />
+
           <Route path="*" element={<Navigate to="/error/404" />} />
         </Routes>
       )}

@@ -61,11 +61,11 @@ export default function BlogPostCard({ post, index }) {
   const latestPostLarge = index === 0;
   const latestPost = index === 1 || index === 2;
 
-  const POST_INFO = [
-    { number: comment, icon: 'eva:message-circle-fill' },
-    { number: view, icon: 'eva:eye-fill' },
-    { number: share, icon: 'eva:share-fill' },
-  ];
+  // const POST_INFO = [
+  //   { number: comment, icon: 'eva:message-circle-fill' },
+  //   { number: view, icon: 'eva:eye-fill' },
+  //   { number: share, icon: 'eva:share-fill' },
+  // ];
 
   return (
     <Grid item xs={12} sm={latestPostLarge ? 12 : 6} md={latestPostLarge ? 6 : 3}>
@@ -149,7 +149,7 @@ export default function BlogPostCard({ post, index }) {
             {title}
           </StyledTitle>
 
-          <StyledInfo>
+          {/* <StyledInfo>
             {POST_INFO.map((info, index) => (
               <Box
                 key={index}
@@ -166,7 +166,7 @@ export default function BlogPostCard({ post, index }) {
                 <Typography variant="caption">{fShortenNumber(info.number)}</Typography>
               </Box>
             ))}
-          </StyledInfo>
+          </StyledInfo> */}
         </CardContent>
       </Card>
     </Grid>

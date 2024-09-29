@@ -9,17 +9,11 @@ const ContactSection = () => {
           <Col md={12}>
             <div className="section-header text-center pb-5">
               <h2 className="gradient-text mt-5 mb-5">Contact Us</h2>
-              <p>🏠 - HIG II, Plot 5-12, JAMUNIPUR COLONY, BHADOHI-221401, U.P. INDIA</p>
+              <p>🏠 - Rangmahal Square ,North TT Nagar ,Bhopal, M.P. INDIA</p>
               <p>
                 📱 -
                 <a href="tel:+919335723032" className="contact-link">
-                  (+91) 9335723032
-                </a>
-                <a href="tel:+919918022212" className="contact-link">
-                  (+91) 9918022212
-                </a>
-                <a href="tel:+917007596907" className="contact-link">
-                  (+91) 7007596907
+                  (+91) 9770519653
                 </a>
               </p>
               <p>
